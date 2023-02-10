@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <title>Formulário HTML</title>
+  </head>
+  <body>
+    <h1>Formulário 1.0</h1>
+    <section>
+     <form action="./src/php/form.php" method="post">
+        <p><label for="email">E-mail:</label> <input type="email" name="email" id="email" minlength="8" size="20" required placeholder="ex:usuario@gmail.com" autocomplete="username"/></p>
+        <p><label for="senha">Senha:</label> <input type="password" name="senha" id="senha" minlength="6" maxlength="12" size="20" required placeholder="Mínimo 6 caracteres " autocomplete="current-password" /></p>
+        <p><input type="submit" value="Fazer Login" /></p>
+        <p><input type="reset" value="Limpar"></p>
+    </form>
+</section>
+  </body>
+</html>
